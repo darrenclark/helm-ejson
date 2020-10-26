@@ -1,0 +1,6 @@
+name: "ejson"
+version: "0.1.0"
+usage: "decrypts ejson files before running helm command"
+description: "decrypts ejson files before running helm command"
+ignoreFlags: false
+command: "$HELM_PLUGIN_DIR/ejson.sh"
